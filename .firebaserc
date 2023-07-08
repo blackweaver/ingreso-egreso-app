@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ingreso-egreso-app-b26cf": {
+      "hosting": {
+        "ingresosEgresos": [
+          "ingreso-egreso-app-b26cf"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ingreso-egreso-app-b26cf"
+  }
+}
