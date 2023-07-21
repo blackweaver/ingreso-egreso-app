@@ -11,8 +11,8 @@ export class AppComponent {
 
   constructor(private authService: AuthService) {
     this.authService.initAuthListener().subscribe((res) => {
-      console.log(res?.email);
-      console.log(res?.uid);
+      // console.log(res?.email);
+      // console.log(res?.uid);
     })
   }
 }
